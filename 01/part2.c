@@ -24,8 +24,6 @@ int32_t main(int32_t argc, char* argv[]) {
 		exit(1);
 	}
 
-//"ptwone9kzvjhhfive7qjsblztmfvthreeqrhhmbgjpqrgqhcgzntmvskhh"
-//"pxltqzgqxbkq7krgnthtqbm3636"
 	uint64_t count = 0;
 	while (fgets(line, sizeof(line), input)) {
 		int32_t last_ch = -1;
