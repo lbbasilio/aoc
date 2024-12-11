@@ -11,16 +11,6 @@
 #define HASH_MAP_IMPLEMENTATION
 #include "../../hash_map.h"
 
-int comp(const void* a, const void* b)
-{
-	return *(int*)a - *(int*)b;
-}
-
-int abs(int n)
-{
-	return (n > 0) * n + !(n < 0) * (-n);
-}
-
 int main()
 {
 	FILE* input = fopen("input.txt", "r");
